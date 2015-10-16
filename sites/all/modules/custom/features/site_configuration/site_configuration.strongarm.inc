@@ -28,7 +28,7 @@ function site_configuration_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'Excellent books, to keep you always reading.';
+  $strongarm->value = 'Connecting you to books that you won\'t want to set down!';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
