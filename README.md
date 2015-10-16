@@ -1,19 +1,22 @@
 
 # booked for life
 
-
 #### By Chris Swan
 
 ## Description
 
-_A drupal site for a book store._
+_A drupal site for a book store to host specials, book reviews and content about the business._
 
 ## Setup
-_use MAMP to host the site, once started, direct the
-_Make MySQL database named: booked_for_life  
-_Import database from sites/db-backup_  
+_use MAMP to host the site, initiate MAMP(Or WAMP for windows users), then start the PHP myAdmin to create the database._
+_Make MySQL database named: "booked_for_life", using the MySQL user name and password to set up the user in the Privileges section for site to access database. Be sure to set host to "local"._
+_Import database from sites/db-backup into the newly made "booked_for_life" database._
+_once started, direct mamp to the project folder to host._ 
+_send browser to localhost:8888 to view site._
 _Create MySQL user name: bookAdmin & password: root_  
 _Drupal user login name: bookAdmin & password: root_
+_Drupal "Reviewer" user name: bookReviewer & passowrd: root_
+_Drupal "authenticated user" user name: authenticatedUser & password: root_
 
 
 ## Technologies Used
